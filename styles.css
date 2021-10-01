@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+h1 {
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 7rem;
+  margin: 0;
+  font-size: 11rem;
+}
+h2 {
+  box-sizing: content-box;
+  border: solid #5b6dcd 1rem;
+  color: white;
+  font-size: 2rem;
+  width: 36rem;
+  height: 36rem;
+  display: flex;
+}
+.hat {
+}
