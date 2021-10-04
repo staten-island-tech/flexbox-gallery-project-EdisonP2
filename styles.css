@@ -10,6 +10,7 @@ h1 {
   padding: 7rem;
   margin: 0;
   font-size: 11rem;
+  font-family: "Noto Sans Display", sans-serif;
 }
 h2 {
   box-sizing: content-box;
@@ -18,7 +19,24 @@ h2 {
   font-size: 2rem;
   width: 36rem;
   height: 36rem;
-  display: flex;
+  margin-left: 4rem;
+  margin-top: 1rem;
 }
-.hat {
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+}
+.row3 {
+  display: flex;
+  flex-direction: row;
+}
+.src {
+  width: 32rem;
+  height: 32rem;
+  margin-left: -34.5rem;
+  margin-top: 4rem;
 }
