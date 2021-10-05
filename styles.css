@@ -12,16 +12,7 @@ h1 {
   font-size: 11rem;
   font-family: "Noto Sans Display", sans-serif;
 }
-h2 {
-  box-sizing: content-box;
-  border: solid red 0.75rem;
-  color: white;
-  font-size: 2rem;
-  width: 36rem;
-  height: 36rem;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
+
 .row1 {
   display: flex;
   flex-direction: row;
@@ -37,9 +28,18 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.src {
+.box {
+  box-sizing: content-box;
+  border: solid red 0.75rem;
+  color: white;
+  font-size: 2rem;
   width: 36rem;
-  height: 34rem;
-  margin-left: -37.7rem;
-  margin-top: 4rem;
+  height: 36rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.pic {
+  height: 32rem;
+  width: 36rem;
+  margin-top: 3rem;
 }
