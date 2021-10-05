@@ -14,29 +14,32 @@ h1 {
 }
 h2 {
   box-sizing: content-box;
-  border: solid #5b6dcd 1rem;
+  border: solid red 0.75rem;
   color: white;
   font-size: 2rem;
   width: 36rem;
   height: 36rem;
-  margin-left: 4rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 .row1 {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .row2 {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .row3 {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 .src {
-  width: 32rem;
-  height: 32rem;
-  margin-left: -34.5rem;
+  width: 36rem;
+  height: 34rem;
+  margin-left: -37.7rem;
   margin-top: 4rem;
 }
