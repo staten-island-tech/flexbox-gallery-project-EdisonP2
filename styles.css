@@ -28,7 +28,7 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
 }
-.imgincard {
+.card {
   box-sizing: content-box;
   border: solid white 0.25rem;
   box-shadow: 8px 10px 15px white;
