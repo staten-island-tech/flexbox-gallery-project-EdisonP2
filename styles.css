@@ -31,7 +31,7 @@ h1 {
 .card {
   box-sizing: content-box;
   border: solid white 0.25rem;
-  box-shadow: .5rem .75rem 1rem white;
+  box-shadow: 0.5rem 0.75rem 1rem white;
   width: 30rem;
   height: 30rem;
   margin-left: 1rem;
@@ -46,5 +46,6 @@ h1 {
 .cardheader {
   color: white;
   font-family: "Gemunu Libre", sans-serif;
- font-size: 3rem;
-text-align: center;
+  font-size: 3rem;
+  text-align: center;
+}
