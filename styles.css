@@ -49,3 +49,13 @@ h1 {
   font-size: 3rem;
   text-align: center;
 }
+.cardheader:hover {
+  color: blue;
+}
+.card:hover {
+  transform: scale(1.2);
+}
+h1:hover {
+  transform: scale(0.75);
+  transition: all 3s ease-out;
+}
