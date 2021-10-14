@@ -11,6 +11,7 @@ h1 {
   margin: 0;
   font-size: 11rem;
   font-family: "Noto Sans Display", sans-serif;
+  animation: animate 5s;
 }
 
 .row1 {
@@ -58,4 +59,22 @@ h1 {
 h1:hover {
   transform: scale(0.75);
   transition: all 3s ease-out;
+}
+
+@keyframes animate {
+  from {
+    transform: rotateX(180deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+.row3:hover {
+  transition: all 1.5s ease-out;
+  margin-top: 4rem;
+}
+.row2:hover {
+  transition: all 1s ease-out;
+  transform: rotateX(180deg);
 }
