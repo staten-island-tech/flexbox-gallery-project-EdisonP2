@@ -80,20 +80,42 @@ h1:hover {
   transform: rotateX(180deg);
 }
 
-@media only screen and (min-width: 390px) and (max-width: 767px) {
+@media screen and (min-width: 390px) and (max-width: 844px) {
   h1 {
     font-size: 4rem;
+    padding: 4rem;
   }
   .card-img {
-    height: 8rem;
-    width: 8rem;
-    margin-top: 0.75rem;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 0.35rem;
   }
   .card {
-    height: 12rem;
-    width: 8rem;
+    height: 9rem;
+    width: 6rem;
+    margin-left: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
   }
   .cardheader {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 810px) and (max-width: 1080px) {
+  h1 {
+    font-size: 8rem;
+  }
+  .card {
+    height: 18rem;
+    width: 15rem;
+  }
+  .card-img {
+    height: 15rem;
+    width: 15rem;
+    margin-top: -1.8rem;
+  }
+  .cardheader {
+    font-size: 2rem;
+    margin-top: 1.2rem;
   }
 }
