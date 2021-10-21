@@ -1,5 +1,6 @@
 html,
-body {
+body,
+* {
   background-color: black;
   padding: 0;
   margin: 0;
@@ -45,7 +46,7 @@ h1 {
 .card-img {
   height: 24rem;
   width: 30rem;
-  margin-top: -2.26rem;
+  margin-top: 3rem;
 }
 .cardheader {
   color: white;
@@ -114,7 +115,7 @@ h1:hover {
   .card-img {
     height: 12rem;
     width: 15rem;
-    margin-top: -1rem;
+    margin-top: -0.5rem;
   }
   .cardheader {
     font-size: 3rem;
