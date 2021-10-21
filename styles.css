@@ -56,7 +56,7 @@ h1 {
 }
 .cardheader:hover {
   color: blue;
-  transform: scale(1.5);
+  font-size: 5rem;
   transition: all 1.5s ease-out;
 }
 .card:hover {
