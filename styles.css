@@ -94,7 +94,7 @@ h1:hover {
   .card-img {
     height: 12rem;
     width: 12rem;
-    margin-top: 3rem;
+    margin-top: 6rem;
   }
   .card {
     height: 20rem;
@@ -117,7 +117,7 @@ h1:hover {
   .card-img {
     height: 12rem;
     width: 15rem;
-    margin-top: -0.5rem;
+    margin-top: 1.5rem;
   }
   .cardheader {
     font-size: 3rem;
